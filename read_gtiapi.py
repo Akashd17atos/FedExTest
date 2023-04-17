@@ -10,9 +10,12 @@ def call_curl(curl):
 
 
 if __name__ == '__main__':
-    curl = '''curl - X
-    POST - d
-    '{"nw_src": "10.0.0.1/32", "nw_dst": "10.0.0.2/32", "nw_proto": "ICMP", "actions": "ALLOW", "priority": "10"}'
-    http: // localhost: 8080 / firewall / rules / 0000000000000001 '''
+    curl = '''curl -L \
+  -X PATCH \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer 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"\
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  https://api.github.com/repos/Akashd17atos/FedExTest/issues/comments/COMMENT_ID \
+  -d '{"body":"Me too"}' '''
     output = call_curl(curl)
     print(output)

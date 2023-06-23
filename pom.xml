@@ -1,6 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -10,7 +8,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 	</parent>
 	<groupId>eai3536834.com.fedex.gemini</groupId>
 	<artifactId>gemini-rule-engine</artifactId>
-	<version>3.12.62-SNAPSHOT</version>
+	<version>3.12.66-SNAPSHOT</version>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -29,7 +27,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 			<artifactId>
 				gemini-inbound-clearance-service-utils
 			</artifactId>
-			<version>3.12.62-RELEASE</version>
+			<version>3.12.66-RELEASE</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
@@ -73,12 +71,12 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
 		<dependency>
 			<groupId>eai3536834.com.fedex.gemini</groupId>
 			<artifactId>gemini-common-models</artifactId>
-			<version>3.12.62-RELEASE</version>
+			<version>3.12.66-RELEASE</version>
 		</dependency>		
 		<dependency>
 			<groupId>eai3536834.com.fedex.gemini</groupId>
 			<artifactId>gemini-common-utils</artifactId>
-			<version>3.12.62-RELEASE</version>
+			<version>3.12.66-RELEASE</version>
 		</dependency>
 	</dependencies>
 	<dependencyManagement>
